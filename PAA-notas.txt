@@ -1,0 +1,12 @@
+PAA
+-> cancela cetegoria dos preços
+-> Normalizar só os dados de treino
+-> vericar Otliers - com base no IQR para numericas e criar categorias ('outros') para as v.a categoricas
+
+-> Derivar atributos
+. cores internas e externas 
+. marca e modelo (nao tem Nan)
+
+-> Modelos sensíveis a outliers:
+Redes  Neurais
+Regressão
