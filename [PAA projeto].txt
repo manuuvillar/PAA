@@ -1,0 +1,45 @@
+[PAA projeto]
+
+Dúvidas:
+como é que se calcula o lucro ?
+total_gains = nºcarros_vendidos*preço_dos_respetivos_modelos
+total_custos = nºcarros_vendidos*custo_por_carro+(operating_costs)
+custo_por_carro: custos do carro comprado ao vendedor para depois vender
+operating_costs: custos das utilidades, salários, impostos e manutenção
+lucro = total_gains-total_custos
+
+NÃO ESQUECER DE MUDAR TERMINOLOGIA AO LONGO DO TEMPO IF NECESSARIO
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+
+PARTE PREPARAÇÃO DOS DADOS
+
+criar atributo para as cores (padronizar)
+
+
+identificação dos outliers
+>> decidimos DELETE OUTLIERS para todos <<
+-- o que fazer com os outliers ??? delete / transform (log/ norm) (mean...)
+
+
+
+em vez de criar vários conjuntos com diferentes atributos, 
+podemos usar só um único dataset (com todos os novos atributos criados) salvar esse dataset 
+e depois efetuar as subsitituições de valores NaN, normalizações, logaritmizações, padronizações, aí criando diferentes conjuntos com base nesse dataset inicial e depois desses conjuntos criados eventualmente dar 'drop' de algumas colunas não necessárias naquele momento 
+
+temos que mostrar a parte que fizemos para verificar que NaN em fuel_type significava que os carros eram elétricos ???
+
+
+
+??? desnormalizar arvores para ver os resultados
+------------------------------------------------------------------------------------------------------------------------
+
+- profundidade da arvore (valor padrao, testar, ou usar algoritmos) (slides)
+
+- usar vários algoritmos de aprendizagem (arvores/redes...)
+	- fazer conjuntos (com subconjunto em cada)
+- tirar conclusoes usando s]o um tipo de métrica, mas analisando várias
+
+- objeto -- treino -- previsao
+
+
